@@ -1,0 +1,48 @@
+{
+  "name": "@jswork/safe-rename",
+  "version": "1.0.0",
+  "description": "Rename file or dictionary use cli.",
+  "homepage": "https://github.com/afeiship/safe-rename",
+  "author": {
+    "name": "afei",
+    "email": "1290657123@qq.com"
+  },
+  "bin": {
+    "sfmv": "bin/index.js",
+    "safe-rename": "bin/index.js"
+  },
+  "scripts": {
+    "start": "node bin/index.js",
+    "build": "gulp"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@jswork/next": "^1.0.2",
+    "@jswork/next-absolute-package": "^1.0.1",
+    "@jswork/next-path-parse": "^1.0.0",
+    "@jswork/next-sanitize-filename": "^1.0.0",
+    "@jswork/next-trim": "^1.0.0",
+    "chalk": "^4.1.0",
+    "commander": "^6.2.0",
+    "globby": "^11.0.1",
+    "gulp-rename": "^2.0.0",
+    "require-dir": "^1.2.0",
+    "yargs": "^13.2.4"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "devDependencies": {
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-load-plugins": "^2.0.5",
+    "gulp-replace": "^1.0.0",
+    "prettier": "^2.1.2"
+  },
+  "keywords": [
+    "boilerplate",
+    "cli"
+  ]
+}
