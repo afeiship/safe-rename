@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "node bin/index.js",
-    "build": "gulp"
+    "build": "gulp",
+    "release": "release-it"
   },
   "main": "index.js",
   "license": "MIT",
@@ -40,7 +41,8 @@
     "gulp": "^4.0.2",
     "gulp-load-plugins": "^2.0.5",
     "gulp-replace": "^1.0.0",
-    "prettier": "^2.1.2"
+    "prettier": "^2.1.2",
+    "release-it": "^14.2.1"
   },
   "keywords": [
     "boilerplate",

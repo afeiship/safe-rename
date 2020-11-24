@@ -12,3 +12,4 @@ Gemfile
 Rakefile
 
 .editorconfig
+.release-it.json
