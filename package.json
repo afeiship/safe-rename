@@ -45,7 +45,12 @@
     "release-it": "^14.2.1"
   },
   "keywords": [
-    "boilerplate",
-    "cli"
+    "safe",
+    "rename",
+    "mv",
+    "sfmv",
+    "cli",
+    "sanitize",
+    "filename"
   ]
 }
