@@ -6,6 +6,8 @@
 [![size][size-image]][size-url]
 [![download][download-image]][download-url]
 
+![snapshot](https://tva1.sinaimg.cn/large/0081Kckwgy1gl071bjiwmj30v80f84qp.jpg)
+
 ## installation
 ```shell
 npm install @jswork/safe-rename
@@ -16,9 +18,12 @@ npm install @jswork/safe-rename
 Usage: safe-rename [options]
 
 Options:
-  -V, --version  output the version number
-  -d, --debug    only show cmds, but not clean.
-  -h, --help     display help for command
+  -V, --version           output the version number
+  -p, --pattern <string>  glob pattern for gobby('*.doc,*.pdf').
+  -c, --char <string>     replacement char (default is: _). (default: "_")
+  -s, --strip             strip repeat replacement char. (default: true)
+  -d, --debug             only show cmds, but not clean.
+  -h, --help              display help for command
 ~~~
 
 ## license
