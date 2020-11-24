@@ -17,6 +17,7 @@ const { version } = nx.absolutePackage();
 const program = new Command();
 const replacer = (char) => {
   return [
+    [/\s/g, char],
     [/\(/g, char],
     [/\)/g, char]
   ];
@@ -50,6 +51,7 @@ nx.declare({
     start() {
       const files = globby.sync(this.patts);
       const char = this.options.char;
+      this.options.debug && console.log(files);
       files.forEach((file) => {
         const { name, ext } = path.parse(file);
         const sfilename = nx.sanitizeFilename(name, {
@@ -61,7 +63,7 @@ nx.declare({
       });
     },
     rename(inOldName, inNewName) {
-      if (program.debug) {
+      if (this.options.debug) {
         console.log(`[debug]: ${inOldName} -> ${inNewName}`);
       } else {
         fs.renameSync(inOldName, inNewName);
