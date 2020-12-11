@@ -49,7 +49,7 @@ nx.declare({
       this.options = program.opts();
     },
     start() {
-      const files = globby.sync(this.patts);
+      const files = globby.sync(this.patts, { onlyFiles: false });
       const char = this.options.char;
       this.options.debug && console.log(files);
       files.forEach((file) => {
