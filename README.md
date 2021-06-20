@@ -26,6 +26,13 @@ Options:
   -h, --help              display help for command
 ~~~
 
+## filters
+| name  | description                     |
+| ----- | ------------------------------- |
+| lower | Lower case filename. (ABC.jpg)           |
+| upper | Upper case filename.            |
+| dbdt  | Add dbdt timestamp to filename. |
+
 ## license
 Code released under [the MIT license](https://github.com/afeiship/safe-rename/blob/master/LICENSE.txt).
 
