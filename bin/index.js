@@ -70,8 +70,9 @@ nx.declare({
         });
         const processor = this.options.strip ? (val) => nx.trimRepeated(val, char) : nx.stubValue;
         const nname = processor(`${nx.trim(sfilename, char)}${ext}`);
-        const fname = this.composeFilter({ str: nname, index }).str;
-        this.rename(file, fname);
+        const [str, _] = nname.split('.');
+        const fname = this.composeFilter({ str, ext, index });
+        this.rename(file, `${fname.str}${fname.ext}`);
       });
     },
     rename(inOldName, inNewName) {

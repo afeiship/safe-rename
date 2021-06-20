@@ -1,3 +1,3 @@
-module.exports = ({ str, index }) => {
-  return { str: nx.underscored(str), index };
+module.exports = ({ str, index, ext }) => {
+  return { str: nx.underscored(str), index, ext };
 };

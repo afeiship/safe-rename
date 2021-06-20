@@ -1,3 +1,3 @@
-module.exports = ({ str, index }) => {
-  return { str: `${nx.Date.format(null,'date')}_${str}`, index };
+module.exports = ({ str, index, ext }) => {
+  return { str: `${nx.Date.format(null, 'date')}_${str}`, index, ext };
 };

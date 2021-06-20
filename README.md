@@ -6,7 +6,7 @@
 [![size][size-image]][size-url]
 [![download][download-image]][download-url]
 
-![snapshot](https://tva1.sinaimg.cn/large/0081Kckwgy1gl071bjiwmj30v80f84qp.jpg)
+![snapshot](https://tva1.sinaimg.cn/large/008i3skNgy1grp3gf61wqj30v80f843g.jpg)
 
 ## installation
 ```shell

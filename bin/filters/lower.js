@@ -1,3 +1,3 @@
-module.exports = ({ str, index }) => {
-  return { str: str.toLowerCase(), index };
+module.exports = ({ str, index, ext }) => {
+  return { str: str.toLowerCase(), index, ext };
 };
