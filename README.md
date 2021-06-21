@@ -16,12 +16,14 @@ npm install @jswork/safe-rename
 ## usage
 ~~~
 Usage: safe-rename [options]
+Usage: sfmv [options]
 
 Options:
   -V, --version           output the version number
   -p, --pattern <string>  glob pattern for gobby('*.doc,*.pdf').
   -c, --char <string>     replacement char (default is: _). (default: "_")
   -s, --strip             strip repeat replacement char. (default: true)
+  -f, --filters <list>    Process filename one by one.
   -d, --debug             only show cmds, but not clean.
   -h, --help              display help for command
 ~~~
