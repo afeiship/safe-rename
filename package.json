@@ -22,6 +22,7 @@
     "@jswork/next": "^1.0.2",
     "@jswork/next-absolute-package": "^1.0.1",
     "@jswork/next-camelize": "^1.0.0",
+    "@jswork/next-cdb-case": "^1.0.0",
     "@jswork/next-classify": "^1.0.0",
     "@jswork/next-compose": "^1.0.0",
     "@jswork/next-date": "^1.0.10",

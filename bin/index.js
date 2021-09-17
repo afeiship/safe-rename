@@ -18,6 +18,7 @@ require('@jswork/next-kebab-case');
 require('@jswork/next-camelize');
 require('@jswork/next-classify');
 require('@jswork/next-underscored');
+require('@jswork/next-cdb-case');
 
 const { version } = nx.absolutePackage();
 const program = new Command();
